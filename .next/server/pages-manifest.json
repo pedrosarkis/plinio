@@ -1,9 +1,0 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/pinturas": "pages/pinturas.js",
-  "/biografia": "pages/biografia.js",
-  "/esculturas": "pages/esculturas.js",
-  "/desenhos": "pages/desenhos.js"
-}
