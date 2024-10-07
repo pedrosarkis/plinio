@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
             </Link>
             <ul className="flex space-x-6 items-center text-white">
               <li><Link href="/" className="hover:text-gray-300">Início</Link></li>
-              <li><Link href="/masterpieces" className="hover:text-gray-300">Obras</Link></li>
+              <li><Link href="/esculturas" className="hover:text-gray-300">Esculturas</Link></li>
               <li><Link href="/pinturas" className="hover:text-gray-300">Pinturas</Link></li>
               <li><Link href="/desenhos" className="hover:text-gray-300">Desenhos</Link></li>
               <li><Link href="/quotes" className="hover:text-gray-300">Citações</Link></li>
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
 
       <footer className="bg-gray-800 text-white py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          &copy; {new Date().getFullYear()} Pablo Picasso Website. All rights reserved.
+          &copy; {new Date().getFullYear()} Plínio Verani Website. All rights reserved.
         </div>
       </footer>
     </div>

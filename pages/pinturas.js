@@ -5,9 +5,13 @@ import ImageGallery from '../components/ImageGallery';
 import ImageModal from '../components/ImageModal';
 
 const drawings = [
-  { id: 1, src: '/images/drawings/me.png', title: 'Drawing 1' },
-  { id: 2, src: '/images/drawings/partidas.png', title: 'Drawing 2' },
-  // Add more drawings here
+  { id: 1, src: '/images/painting/painting1.jfif', title: 'Drawing 1' },
+  { id: 2, src: '/images/painting/painting2.jfif', title: 'Drawing 2' },
+  { id: 3, src: '/images/painting/painting3.jfif', title: 'Drawing 3' },
+  { id: 4, src: '/images/painting/painting4.jfif', title: 'Drawing 4' },
+  { id: 5, src: '/images/painting/painting5.jfif', title: 'Drawing 5' },
+  { id: 6, src: '/images/painting/painting6.jfif', title: 'Drawing 6' },
+  { id: 7, src: '/images/painting/painting7.jfif', title: 'Drawing 7' },
 ];
 
 const DrawingsPage = () => {

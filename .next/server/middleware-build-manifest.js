@@ -9,11 +9,6 @@ self.__BUILD_MANIFEST = {
   "lowPriorityFiles": [],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,10 +19,20 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/biografia": [
+    "/desenhos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/biografia.js"
+      "static/chunks/pages/desenhos.js"
+    ],
+    "/esculturas": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/esculturas.js"
+    ],
+    "/pinturas": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pinturas.js"
     ]
   },
   "ampFirstPages": []
